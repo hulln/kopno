@@ -1,9 +1,9 @@
 import re
 import keyboard
 
-input_file = "24ur_all_prepis.txt"
-output_file = "comments_anon_24ur.txt"
-final_file = "comments_anon_manual_24ur.txt"
+input_file = "input.txt"
+output_file = "output.txt"
+final_file = "final.txt"
 
 # ta program je v prvi fazi enak tistemu za anonimizacijo uporabnikov
 id_map = {}
