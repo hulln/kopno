@@ -1,7 +1,7 @@
 # About the project
 
 ## Introduction
-Kopno, komentarji političnih novic, is a dataset for a corpus comprised of comments under political articles on four Slovenian news sites: RTV SLO, N1, Nova 24 and 24ur. These sites were picked as they are the most popular among people that like to participate in political debates online. 
+Kopno, komentarji političnih novic, is a dataset for a corpus comprised of comments under political articles on four Slovenian news sites: 24ur.com, RTV SLO, Nova24TV and N1. These sites were picked as they are the most popular among people that like to participate in political debates online. 
 We aimed to make the dataset balanced with roughly the same number of comments per source. The number of comments on each news site is\
 24ur.com – 5144 comments\
 RTV SLO – 4489 comments\
