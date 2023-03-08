@@ -8,7 +8,7 @@ RTV SLO – 4489 comments\
 Nova24TV – 2539 comments\
 N1 – 1863 comments.
 
-Since the dataset has not undergone tokenization or lemmatization, we cannot state the number of tokens it entails. 
+Since the dataset has not undergone tokenization or lemmatization, the number of tokens it entails cannot be stated. 
 
 The program that was used to scrape comments from the internet was written by Mojca Brglez, an assistant professor at the Faculty of Arts at the University of Ljubljana. We used articles that were published in the last two months of 2022. The only exception is N1, where articles from the second half of the year were used due to a smaller number of comments. 
 
@@ -16,7 +16,7 @@ After extraction, the data was cleaned, so only relevant data was left: the comm
 
 Every comment also got its unique ID, which was stored using roughly the same key as the username: *ime portala_zaporedna številka komentarja*. If a comment is a reply in a thread, the original comment’s ID is also referenced. A link to the original article is also included in the metadata. We assigned IDs to comments with Brglez’s help. All other programming work was done by the group. 
 
-The last step of the process was to convert the data into CSV format, which was done using a Python program. The encoding used in this step is utf-8-sig.
+The last step in this phase of the process was to convert the data into CSV format, which was done using a Python program. The encoding used in this step is utf-8-sig. Some comments in the files contain quotation marks, while others do not. Transformation of comment content into a common form and merging of the separate files into a single larger file was planned for the next phase of corpus development and could also be achieved using a Python program.
 
 The dataset is released under The Creative Commons Attribution-NonCommercial-Share Alike 4.0 International licence agreement (CC BY-NC-SA 4.0).
 
